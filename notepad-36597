@@ -1,5 +1,10 @@
 # if you do not recognize this file, feel free to delete it
 
+====================== to log on ios mobile:
+chrome://inspect
+
+========================== related files:
+
 src/components/Attachments/AttachmentCarousel/index.tsx
 src/components/Attachments/AttachmentCarousel/index.native.tsx
 
@@ -15,3 +20,5 @@ src/components/ImageView/index.native.tsx
 src/components/Lightbox/index.tsx
 
 src/components/MultiGestureCanvas/index.tsx
+
+===============================
