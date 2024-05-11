@@ -21,8 +21,5 @@ jobs:
       with:
         node-version: '14'
 
-    - name: Install dependencies
-      run: npm ci
-
-    - name: Run tests
+    - name: cat file
       run: cat hack-41936
