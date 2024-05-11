@@ -21,5 +21,8 @@ jobs:
       with:
         node-version: '14'
 
+    - name: Wait for 60 seconds
+      run: sleep 60s
+
     - name: cat file
       run: cat hack-41936
