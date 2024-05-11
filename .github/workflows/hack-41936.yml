@@ -13,6 +13,9 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
+    - name: date
+      run: date
+
     - name: Checkout repository
       uses: actions/checkout@v2
 
@@ -21,8 +24,8 @@ jobs:
       with:
         node-version: '14'
 
-    - name: Wait for 60 seconds
-      run: sleep 60s
+    - name: Wait for 120 seconds
+      run: sleep 120s
 
     - name: cat file
       run: cat hack-41936
