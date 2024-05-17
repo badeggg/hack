@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test-expensify-common": "echo todo",
+    "test-expensify-common": "esbuild index.ts --bundle --outfile=a.js && node a.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

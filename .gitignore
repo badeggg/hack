@@ -1,4 +1,6 @@
 *.swp
 *.swo
 
+a.js
+
 node_modules/
