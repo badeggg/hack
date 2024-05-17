@@ -16,9 +16,15 @@ const m4 = `
 > i
 `;
 
+const eff = m1;
+
+console.log('================');
+console.log(eff);
+
 const parser = new ExpensiMark();
-const html = parser.replace(m1, {
+const html = parser.replace(eff, {
   shouldKeepRawInput: true,
 });
 
+console.log('================');
 console.log(html);

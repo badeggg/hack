@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test-expensify-common": "esbuild index.ts --bundle --outfile=a.js && node a.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-expensify-common": "esbuild index.ts --bundle --outfile=a.js && sed -i '' 's/window\\.DEBUG/false/g' a.js && node a.js",
+    "t": "npm run test-expensify-common"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "esbuild": "^0.21.3",
-    "expensify-common": "github:badeggg/expensify-common#747404fab00f89dbeec0b0c39a77b68374e0eef0",
+    "expensify-common": "github:Expensify/expensify-common#18fa764be9d68f72b48d238dcc20f2b0ca8f1147",
+    "patch-package": "^8.0.0",
     "prettier": "^3.2.5",
     "react": "^18.3.1"
   }
