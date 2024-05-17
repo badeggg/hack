@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test-expensify-common": "echo todo",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "esbuild": "^0.21.3",
+    "expensify-common": "github:badeggg/expensify-common#747404fab00f89dbeec0b0c39a77b68374e0eef0",
+    "prettier": "^3.2.5",
     "react": "^18.3.1"
   }
 }
