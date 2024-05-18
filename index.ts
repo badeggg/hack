@@ -11,7 +11,7 @@ const m2 = `# ddd`;
 const m3 = `   # ddd`;
 
 const m4 = `
->>> # hello
+>>>  # hello
 >> hi
 > i
 `;
@@ -23,7 +23,7 @@ console.log(eff);
 
 const parser = new ExpensiMark();
 const html = parser.replace(eff, {
-  shouldKeepRawInput: true,
+  shouldKeepRawInput: false,
 });
 
 console.log('================');
