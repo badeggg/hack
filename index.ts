@@ -16,6 +16,8 @@ const m4 = `
 > i
 `;
 
+const m5 = '> > > > > > > hello';
+
 const eff = m1;
 
 console.log('================');
